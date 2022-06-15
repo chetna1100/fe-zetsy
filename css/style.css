@@ -3,6 +3,9 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+/* *{padding: 0;
+	margin: 0; margin: auto;
+box-sizing: border-box;} */
 
 body {
 	background: #F3EBE9;
@@ -17,4 +20,23 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/* Write all remaining styles here */ 
+h1,h2,p{color: #6F7F7A; }
+h1 {font-size: 5em;
+  margin: 0px;
+  border-bottom: 1px solid #ccc;
+}
+h2{font-size: 2em;}
+header a {
+	text-decoration: none	;
+	color: #9caba6; 
+  }
+  header a:hover {
+	color: #6F7F7A;
+  }
+
+#featured img{border: 5px solid #98ADA6;
+} 
+#press img{border: 5px solid #9caba6;}
+#press img:hover{border: 5px solid #6F7F7A;}
+footer p{text-align: right; font-size: .8em;}
